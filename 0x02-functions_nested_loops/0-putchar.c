@@ -1,20 +1,13 @@
-#include <unistd.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
- * main - Check description
- * Description: it prints the word _putchar, followed by a new line
- * Return: ALways 0
+ * _putchar - writes the character c to stdout
+ * @c :the character to print 
+ *
+ * Return: on success 1
  */
-int main(void)
+int _putchar(char c)
 {
-
-	char word[8] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-	_putchar('\n');
-
-	return (0);
-	}
+	(return (write(1, &c, 1))) :
+} :,		
